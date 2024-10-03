@@ -13,6 +13,11 @@ header {
     z-index: 1;
 }
 
+header a {
+    color:#fff;
+}
+
+
 h1 {
     margin: 0;
     padding:0;
@@ -24,7 +29,14 @@ h1 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
-    unicode-bidi: isolate;
+}
+
+h2 {
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
  
 nav {
@@ -32,7 +44,6 @@ nav {
     gap: 2.3rem;
     text-transform: uppercase;
     align-items: center;
-    color: #fff;
 }
 
 nav a {
@@ -41,19 +52,34 @@ nav a {
     font-weight: 700;
     cursor: pointer;
     text-transform: uppercase;
-    color: #fff;
 }
 
-section {
-    height: 100vh;
-    background-image: url("/assets/galaxy.jpg");
-    background-size: cover;
-    position: relative;
+main {
     display: block;
-
-
 }
 
+.feature {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.image-galaxy {
+    background-image:url("/assets/galaxy.jpg") ;
+}
+
+.image-landscape {
+    background-image: url("/assets/galaxy2.jpg");
+}
+
+div {
+    display: block;
+}
+section {
+    display:block;
+
+}
 .section-info {
     position:absolute;
     bottom: 200px;
@@ -69,8 +95,8 @@ section {
     font-weight: 100;
     opacity: 1;
     font-size: 1.2rem;
-    font-family: sans-serif;
 }
+
 
 .section-info-tag-heading {
     font-size: 2.5rem;
@@ -92,3 +118,6 @@ section {
     padding: 1rem 2rem;
     text-decoration: none;
 }
+
+
+
