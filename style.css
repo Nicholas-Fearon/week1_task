@@ -2,7 +2,9 @@ body {
    margin: 0;
    padding: 0;
    font-family: sans-serif;
+   display: block;
 }
+
 
 header {
     display: flex;
@@ -58,10 +60,27 @@ main {
     display: block;
 }
 
-.feature {
+.feature1 {
     position: relative;
     background-size: cover;
-    background-position: center;
+    background-position-x: center;
+    background-position-y: center;
+    height: 100vh;
+}
+
+.feature2 {
+    position: relative;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    height: 100vh;
+}
+
+.feature3 {
+    position: relative;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
     height: 100vh;
 }
 
@@ -71,6 +90,10 @@ main {
 
 .image-landscape {
     background-image: url("/assets/galaxy2.jpg");
+}
+
+.image-eclipse {
+    background-image: url("/assets/galaxy3.jpg");
 }
 
 div {
@@ -119,5 +142,12 @@ section {
     text-decoration: none;
 }
 
+footer {
+    background-color: black;
+    text-align: center;
+    color: #555;
+    padding: 40px;
+    display: block;
+}
 
 
