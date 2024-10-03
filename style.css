@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    width: 100%;
+    justify-content: flex-start;
+}
+.logo {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+nav a {
+    margin: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.section-1 {
+    height: 100vh;
+    background-image: url("/assets/galaxy.jpg");
+   background-size: cover;
+    
+
+}
