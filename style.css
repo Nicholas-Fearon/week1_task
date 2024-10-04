@@ -5,6 +5,10 @@ body {
   display: block;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 header {
   display: flex;
   position: fixed;
