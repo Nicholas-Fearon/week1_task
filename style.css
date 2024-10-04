@@ -54,7 +54,14 @@ nav a {
     font-weight: 700;
     cursor: pointer;
     text-transform: uppercase;
+    
 }
+
+a:hover {
+    font-size: .9rem;
+    text-decoration: underline;
+}
+
 
 main {
     display: block;
@@ -101,7 +108,7 @@ div {
 }
 section {
     display:block;
-
+    
 }
 .section-info {
     position:absolute;
@@ -151,3 +158,28 @@ footer {
 }
 
 
+.back-to-top {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+button {
+    background-color: black;
+    border: 1px solid white;
+    padding: 5px;
+}
+button a {
+    text-transform: uppercase;
+    opacity: 1;
+    color: black;
+    color: #fff;
+    text-decoration: none;
+}
+
+audio {
+    height: 30px;
+    position: fixed;
+    right: 20px;
+    top: 20px;
+}

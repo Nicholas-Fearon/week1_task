@@ -1,49 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Week 1: Website Build out</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <h1>SPACEY</h1>
-        <nav>
-            <a href="#">HOME</a>
-            <a href="#">ABOUT</a>
-            <a href="#">TICKETS</a>
-            <a href="#">ROCKETS</a>
-            <a href="#">PRICING</a>
-        </nav>
+      <h1>SPACEY</h1>
+      <nav>
+        <a href="#">HOME</a>
+        <a href="#">ABOUT</a>
+        <a href="#tickets">TICKETS</a>
+        <a href="#">ROCKETS</a>
+        <a href="#pricing">PRICING</a>
+      </nav>
     </header>
     <main>
-        <section class="feature1 image-galaxy">
-            <div class="section-info">
-            <h2 class="section-info-tagline">Recent launch</h2>
-            <h1 class="section-info-tag-heading">Shipflight video</h1>
-            <a class="section-info-tag-link" href="#">Read more</a>
-            </div>
-        </section>
+      <section id="top" class="feature1 image-galaxy">
+        <div class="section-info">
+          <h2 class="section-info-tagline">Recent launch</h2>
+          <h1 class="section-info-tag-heading">Shipflight video</h1>
+          <a class="section-info-tag-link" href="#">Read more</a>
+        </div>
+      </section>
 
-        <section id="tickets" class="feature2 image-landscape"></section>
-            <div class="section-info">
-            <h2 class="section-info-tagline">Buy Tickets</h2>
-            <h1 class="section-info-tag-heading">You can go to space!</h1>
-            <a class="section-info-tag-link" href="#">Read more</a>
-            </div>
-        </section>
+      <section id="tickets" class="feature2 image-landscape">
+        <div class="section-info">
+          <h2 class="section-info-tagline">Buy Tickets</h2>
+          <h1 class="section-info-tag-heading">You can go to space!</h1>
+          <a class="section-info-tag-link" href="#">Read more</a>
+        </div>
+      </section>
 
-        <section id="pricing" class="feature3 image-eclipse"></section>
-            <div class="section-info">
-            <h2 class="section-info-tagline">Buy Tickets</h2>
-            <h1 class="section-info-tag-heading">You can go to space!</h1>
-            <a class="section-info-tag-link" href="#">Read more</a>
-            </div>
-        </section>
-        
+      <section id="pricing" class="feature3 image-eclipse">
+        <div class="section-info">
+          <h2 class="section-info-tagline">Buy Tickets</h2>
+          <h1 class="section-info-tag-heading">You can go to space!</h1>
+          <a class="section-info-tag-link" href="#">Read more</a>
+        </div>
+      </section>
+
+      <section class="back-to-top">
+        <button><a href="#top">Back to Top</a></button>
+      </section>
+
+      <audio controls autoplay>
+        <source
+          src="./assets/Clean Soul - Calming - Kevin MacLeod.mp3"
+          type="audio/ogg"
+        />
+        <source
+          src="./assets/Clean Soul - Calming - Kevin MacLeod.mp3"
+          type="audio/mpeg"
+        />
+      </audio>
     </main>
     <footer>&copy 2024 Nick Fearon</footer>
     <footer></footer>
-</body>
+  </body>
 </html>
