@@ -76,23 +76,23 @@ main {
 }
 
 .image-galaxy {
-  background-image: url("/assets/galaxy.jpg");
+  background-image: url("./assets/galaxy.jpg");
 }
 
 .image-about {
-  background-image: url("/assets/about.jpg");
+  background-image: url("./assets/about.jpg");
 }
 
 .image-landscape {
-  background-image: url("/assets/galaxy2.jpg");
+  background-image: url("./assets/galaxy2.jpg");
 }
 
 .image-rocket {
-  background-image: url("/assets/rocket.jpg");
+  background-image: url("./assets/rocket.jpg");
 }
 
 .image-eclipse {
-  background-image: url("/assets/galaxy3.jpg");
+  background-image: url("./assets/galaxy3.jpg");
 }
 
 div {
