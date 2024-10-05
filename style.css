@@ -173,8 +173,8 @@ button a {
 audio {
   height: 30px;
   position: fixed;
-  right: 20px;
-  top: 60px;
+  left: 20px;
+  bottom: 60px;
 }
 
 .fb-icon {
