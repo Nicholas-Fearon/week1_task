@@ -143,7 +143,7 @@ footer {
   display: flex;
   justify-content: center;
   text-align: center;
-  position:relative;
+  position: relative;
   background-color: black;
   text-align: center;
   color: #555;
@@ -180,6 +180,7 @@ audio {
 .fb-icon {
   height: 20px;
   width: 20px;
+  margin-left: 10px;
 }
 
 .insta-icon {
